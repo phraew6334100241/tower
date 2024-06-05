@@ -5,7 +5,8 @@ function Profile({data}) {
     
     <div>
         <h1>ProfileCOm</h1>
-        {data.id}</div>
+        {data.id}
+    </div>
   )
 }
 
