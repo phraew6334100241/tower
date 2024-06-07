@@ -1,13 +1,16 @@
 import React from 'react'
-import { useState } from 'react'
+import { Button,MenuItem } from '@mui/material'
 function MyButton() {
     function handleClick(){
         alert("Oh no ++")
     }
   return (
     <div>
-        <button onClick={handleClick}>กดสิ</button>
+        <Button onClick={handleClick} variant='contained'>กดสิ</Button>
+      s
     </div>
+
+
   )
 }
 
